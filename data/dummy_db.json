@@ -1,0 +1,74 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD201",
+      "customer": "user",
+      "item": "Wireless Bluetooth Earbuds",
+      "date": "2025-07-25",
+      "status": "Delivered"
+    },
+    {
+      "order_id": "ORD202",
+      "customer": "user",
+      "item": "Smartphone Screen Protector (Pack of 2)",
+      "date": "2025-07-26",
+      "status": "Scheduled"
+    },
+    {
+      "order_id": "ORD203",
+      "customer": "user",
+      "item": "USB-C Fast Charging Cable - 1.5m",
+      "date": "2025-07-27",
+      "status": "Pending"
+    },
+    {
+      "order_id": "ORD204",
+      "customer": "user",
+      "item": "Ergonomic Laptop Stand",
+      "date": "2025-07-28",
+      "status": "Delivered"
+    },
+    {
+      "order_id": "ORD205",
+      "customer": "user",
+      "item": "Noise Cancelling Headphones",
+      "date": "2025-07-29",
+      "status": "Cancelled"
+    },
+    {
+      "order_id": "ORD206",
+      "customer": "user",
+      "item": "Waterproof Backpack",
+      "date": "2025-07-30",
+      "status": "Delivered"
+    },
+    {
+      "order_id": "ORD207",
+      "customer": "user",
+      "item": "LED Desk Lamp with USB Port",
+      "date": "2025-07-31",
+      "status": "Scheduled"
+    },
+    {
+      "order_id": "ORD208",
+      "customer": "user",
+      "item": "Portable Power Bank 10000mAh",
+      "date": "2025-08-01",
+      "status": "Pending"
+    },
+    {
+      "order_id": "ORD209",
+      "customer": "user",
+      "item": "Fitness Tracker Watch",
+      "date": "2025-08-02",
+      "status": "Delivered"
+    },
+    {
+      "order_id": "ORD210",
+      "customer": "user",
+      "item": "Reusable Stainless Steel Water Bottle",
+      "date": "2025-08-03",
+      "status": "Cancelled"
+    }
+  ]
+}
