@@ -1,20 +1,6 @@
 import streamlit as st
 
-st.title("🧪 Step-by-step import test")
+st.set_page_config(page_title="Test App", layout="centered")
+st.title("✅ Streamlit Cloud Works!")
 
-try:
-    from auth.login import login_page
-    st.success("auth.login imported successfully")
-except Exception as e:
-    st.error(f"auth.login import failed: {e}")
-
-try:
-    from agents.agent_db import handle_db_query
-    st.success("agent_db imported successfully")
-except Exception as e:
-    st.error(f"agent_db import failed: {e}")
-
-try:
-    st.switch_page("pages/1_Chat_Interface.py")
-except Exception as e:
-    st.error(f"Page switch failed: {e}")
+st.write("If you're seeing this, the platform is not broken. The issue is in your other code.")
