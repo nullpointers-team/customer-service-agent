@@ -12,7 +12,7 @@ def main():
     if not st.session_state["authenticated"]:
         login_page()
     else:
-        switch_page("1_Chat_Interface")
+        switch_page("Chat_Interface")
 
 if __name__ == "__main__":
     main()
