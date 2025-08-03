@@ -1,27 +1,20 @@
 import streamlit as st
 
-st.title("🔍 App Startup Trace")
+st.title("🧪 Step-by-step import test")
 
 try:
-    st.info("Importing login module...")
     from auth.login import login_page
-    st.success("✅ login_page loaded")
+    st.success("auth.login imported successfully")
 except Exception as e:
-    st.error(f"Login import failed: {e}")
+    st.error(f"auth.login import failed: {e}")
 
 try:
-    if "authenticated" not in st.session_state:
-        st.session_state["authenticated"] = False
-    st.success("✅ Session state ready")
+    from agents.agent_db import handle_db_query
+    st.success("agent_db imported successfully")
 except Exception as e:
-    st.error(f"Session setup failed: {e}")
+    st.error(f"agent_db import failed: {e}")
 
 try:
-    if not st.session_state["authenticated"]:
-        st.info("Rendering login...")
-        login_page()
-    else:
-        st.info("Switching to Chat Interface...")
-        st.switch_page("pages/1_Chat_Interface.py")
+    st.switch_page("pages/1_Chat_Interface.py")
 except Exception as e:
-    st.error(f"Main control flow failed: {e}")
+    st.error(f"Page switch failed: {e}")
