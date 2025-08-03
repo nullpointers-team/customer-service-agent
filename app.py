@@ -12,5 +12,5 @@ def main():
     else:
         st.switch_page("pages/1_Chat_Interface.py")
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     main()
